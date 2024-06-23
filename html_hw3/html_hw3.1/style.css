@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    border: 1px;
+    justify-content:space-evenly;
+    background-color: rosybrown;
+    padding: 100px;
+}
+.element{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    padding: 10px;
+}
+.element:hover{
+    border-radius: 50%;
+    background-color:yellowgreen;
+    transition-duration: 1.5s;
+}
