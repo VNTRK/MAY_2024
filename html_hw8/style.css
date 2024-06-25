@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #646363;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+.header_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 90vw;
+    gap: 6vw;
+    margin-top: 1vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 6vw;
+}
+
+

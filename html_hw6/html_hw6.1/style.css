@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.header, .footer{
+    height: 22.593vh;
+    background: #D9D9D9;
+}
+.main{
+    background: #A4A4A4;
+    height: 58.241vh;
+}

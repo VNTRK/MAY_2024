@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, 'sans-serif';
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    min-width: 500px;
+    height: 65vh;
+    border: 1px solid #7d7b7b52;
+    margin-bottom: 10px;
+}
+.inst{
+    display: block;
+    width: 55%;
+    margin: 5vh 0 4vh 0;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+input{
+    width: 100%;
+    height: 6vh;
+    outline: none;
+    border: 1px solid #7d7b7b52;
+    border-radius:5px;
+    text-overflow:ellipsis;
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+input::placeholder{
+    color: #8E8E8E;
+    font-size: 1.3em;
+}
+input[type="password"]{
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    height: 5vh;
+    background-color: dodgerblue;
+    color: honeydew;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+h3{
+    color: #676767;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #090095;
+}
+.login_from_facebook{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.login_from_facebook>img{
+    width: 25px;
+    margin:0 5px 2px 0;
+}
+.sing_in_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    min-width: 500px;
+    border: 1px solid #7d7b7b52;
+    height: 9vh;
+    font-size: 1.3em;
+}
+.sing_in_box>span{
+    margin-right: 5px;
+}
+.sing_in_box>a{
+    font-weight: bold;
+    color: dodgerblue;
+}

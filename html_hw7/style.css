@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+}
+.first_screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img/background.png");
+    background-size: cover;
+}
+.box_content{
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 70vw;
+    height: 40vh;
+}
+.content_img{
+    width: 50%;
+}
+.content_items{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    background: #FAF9F7;
+}
+.card_title{
+    font-weight: 400;
+    font-size: 1.29em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 53px 0 44px 0;
+}
+.card_title_info{
+    font-size: 0.71em;
+    margin-bottom: 44px;
+}
+input{
+    width: 27vw;
+    height: 7.7vh ;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+input:valid{
+    font-size:0.85em ;
+}
+.second_screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.82);
+}
+iframe{
+    width: 63vw;
+    height: 54vh ;
+    margin: 105px 0 110px 0;
+}
+.info{
+    font-weight:400;
+    width: 63vw;
+    height: 18.5vh ;
+}
+.third_screen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.82);
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height:71.3vh;
+    background: rgba(83, 83, 83, 0.40);
+    font-size: 1em;
+}
+.card_img{
+    width: 27vw;
+    height:22vh;
+    margin: 25px auto 0 auto;
+}
+.card_title{
+    margin: 44px auto 24px auto;
+}
+.card_info{
+    margin-bottom: 62px;
+}
+.price{
+    margin-bottom: 25px;
+}
