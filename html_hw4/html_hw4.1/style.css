@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rp{
+    font-family: "Rubik Pixels", system-ui;
+}
+#sad{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 20px;
+}
+#ds{
+    font-family: "Dancing Script", cursive;
+}
+#fo{
+    font-family: "Fjalla One", sans-serif;
+}
+#if{
+    font-family: "Indie Flower", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #c5c5b7;
+    font-size: 25px;
+    font-weight: 400;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vh;
+    height: 25vh;
+    background-color: rgba(21, 161, 210, 0.51);
+    border-radius: 2vh;
+    margin: 15px;
+}
